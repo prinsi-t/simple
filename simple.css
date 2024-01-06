@@ -1,0 +1,111 @@
+body{
+    background: rgb(135, 206, 235);
+    border: 5px solid rgb(72, 205, 49);
+    margin-right: 40px;
+    margin-left: 40px;
+    color: aliceblue;
+    padding: 30px 40px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+    margin-right: 10em;
+}
+
+.port{
+    text-align: center;
+    margin-top: -2.2em;
+}
+
+a:link{
+    color: rgb(67, 156, 125);
+    font-weight: bolder;
+    
+}
+
+a:visited{
+    color: rgb(68, 175, 138);
+}
+
+.first{
+    float: left;
+    text-align: start;
+    width: 70%;
+    font-size: 25px;
+}
+
+.second{
+    width: 70%;
+    font-size: 25px;
+}
+
+img{
+    float: right;
+   /*  margin-right: 8em; */
+    margin-top: 1em;
+    height: 300px;
+    width: 280px;
+}
+
+.one {
+    margin-top: 2em;
+    text-align: center;
+    
+}
+
+article .one a{
+    margin-left: 3em;
+}
+
+.two{
+    margin-left: 29em;
+    margin-top: -2em;
+    
+}
+
+.three{
+    margin-left: 24em;
+    margin-top: -2.1em;
+    
+}
+
+@media all and (max-width: 1024px){
+    img{
+       
+        margin-top: 5em;
+        margin-right: -2em;
+    }
+
+    article .one a{
+        margin-left: -10em;
+    }
+
+
+    .two{
+        margin-left: 25em;
+        margin-top: -2em;
+        
+    }
+    
+    .three{
+        margin-left: 20em;
+        margin-top: -2.1em;
+        
+    }
+}
+
+@media all and (max-width: 600px){
+   article h3{
+        float: left;
+        width: 100%;
+        margin-left: -10em;
+   }
+ 
+}
+
