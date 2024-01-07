@@ -101,6 +101,35 @@ article .one a{
 }
 
 @media all and (max-width: 600px){
+    header h1{
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    .sect h2{
+        float: left;
+        /* width: 100%; */
+        margin: 0;
+    }
+
+    .sect p{
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    .sect img{
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    .second{
+        width: 100%;
+    }
+
+    
    article h3 a{
         float: left;
         width: 100%;
@@ -109,7 +138,9 @@ article .one a{
 
    article .one a{
     margin-left: 0;
+    margin-right: 0;
    }
+   
    p{
     width: 100%;
    }
@@ -117,6 +148,8 @@ article .one a{
    body{
     margin: 0;
     text-align: center;
+    margin-right: 0;
+    margin-left: 40px;
    }
  
 }
