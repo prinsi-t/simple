@@ -101,10 +101,22 @@ article .one a{
 }
 
 @media all and (max-width: 600px){
-   article h3{
+   article h3 a{
         float: left;
         width: 100%;
-        margin-left: -10em;
+        margin-left: -15em;
+   }
+
+   article .one a{
+    margin-left: 0;
+   }
+   p{
+    width: 100%;
+   }
+
+   body{
+    margin: 0;
+    text-align: center;
    }
  
 }
